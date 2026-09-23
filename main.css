@@ -1,0 +1,53 @@
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #090A15;
+}
+::-webkit-scrollbar-thumb {
+    background: #26244E;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #8C52FF;
+}
+
+/* Filter Buttons Styling */
+.filter-btn {
+    background-color: #12132B;
+    color: #94A3B8;
+    border: 1px solid #26244E;
+}
+
+.filter-btn:hover {
+    color: #FFFFFF;
+    border-color: #8C52FF;
+}
+
+.filter-btn.active {
+    background: linear-gradient(135deg, #8C52FF 0%, #B57EDC 100%);
+    color: #FFFFFF;
+    border-color: transparent;
+    box-shadow: 0 4px 14px 0 rgba(140, 82, 255, 0.4);
+}
+
+/* Contact Cards Hover Glow */
+.contact-card {
+    backdrop-filter: blur(10px);
+}
+
+/* Typography Custom Font for Titles */
+.font-serif {
+    font-family: 'Cinzel', serif, system-ui;
+}
+
+/* Prevent text selection */
+body {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
